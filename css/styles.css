@@ -27,7 +27,8 @@
 .curtain__panel {
   display: flex;
   align-items: center;
-  background: #AE2632;
+
+  background-color: #AE2632;
   color: #fff;
   float: left;
   position: relative;
@@ -39,11 +40,12 @@
 .curtain__panel--left {
   justify-content: flex-end;
   transform: translateX(-100%);
-
+    background-image: url("IMG_2037.PNG")
 }
 .curtain__panel--right {
   justify-content: flex-start;
   transform: translateX(100%);
+    background-image: url("IMG_2036.PNG")
 }
 .curtain__content {
   align-items: center;
