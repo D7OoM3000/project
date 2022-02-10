@@ -40,12 +40,12 @@
 .curtain__panel--left {
   justify-content: flex-end;
   transform: translateX(-100%);
-    background-image: url("IMG_2037.PNG")
+    background-image: url("IMG_2043.PNG")
 }
 .curtain__panel--right {
   justify-content: flex-start;
   transform: translateX(100%);
-    background-image: url("IMG_2036.PNG")
+    background-image: url("IMG_2041.PNG")
 }
 .curtain__content {
   align-items: center;
