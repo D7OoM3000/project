@@ -49,8 +49,8 @@
 }
 .curtain__content {
   align-items: center;
-  background: #333;
-  color: #fff;
+    background-image: url("IMG_2099.PNG");
+  color: #03045E;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -67,3 +67,5 @@
 .h11{ font-size:99px;}
 .h11l{ font-size:99px;
 display: inline-block;}
+
+div {margin: 0;}
