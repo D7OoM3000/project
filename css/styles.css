@@ -5,7 +5,6 @@
   overflow: hidden;
 }
 .curtain__wrapper {
-  Margin: 0 ;
   width: 100%;
   height: 100%;
 }
@@ -18,7 +17,6 @@
   opacity: 0;
   top: 0;
   left: 0;
-  Margin : 0;
 }
 .curtain__wrapper input[type=checkbox]:checked ~ div.curtain__panel--left {
   transform: translateX(0);
@@ -29,7 +27,6 @@
 .curtain__panel {
   display: flex;
   align-items: center;
-  Margin: 0;
 
   background-color: #AE2632;
   color: #fff;
@@ -42,14 +39,12 @@
 }
 .curtain__panel--left {
   justify-content: flex-end;
-  Margin: 0;
   transform: translateX(-100%);
     background-image: url("IMG_2043.PNG")
 }
 .curtain__panel--right {
   justify-content: flex-start;
   transform: translateX(100%);
-  Margin: 0;
     background-image: url("IMG_2041.PNG")
 }
 .curtain__content {
@@ -65,6 +60,8 @@
   text-align: center;
   z-index: 1;
   width: 100%;
+  padding-top: 55px;
+
 }
 .curtain__content img {
   width: 20%;
@@ -73,4 +70,8 @@
 .h11l{ font-size:99px;
 display: inline-block;}
 
-div {margin: 0;}
+body{    margin-right: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  font-family: 'Amiri', serif;}
