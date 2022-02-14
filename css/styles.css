@@ -40,7 +40,7 @@
 .curtain__panel--left {
   justify-content: flex-end;
   transform: translateX(-100%);
-    background-image: url("IMG_2246.PNG")
+    background-image: url("IMG_2249.PNG")
 }
 .curtain__panel--right {
   justify-content: flex-start;
